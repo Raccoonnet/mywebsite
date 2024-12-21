@@ -18,6 +18,9 @@ body {
     color:#000!important;
     background-color:#f1f1f1!important;
 }
+/* header, footer {
+    margin-left:150px;margin-right:150px;
+  } */
 
 /* Document specific section styles */
     /* Top of page section */
@@ -32,6 +35,7 @@ body {
     }
     .top_page h1 {
         font-weight:bold;
+        font-family:"Fabrikat Kompakt Bold";
     }
 
     /* State info section */
@@ -55,6 +59,8 @@ body {
         display:table;
         clear:both; */
         text-align:center;
+        /* margin-left:300px;
+        margin-right:300px; */
     }  
     .city_section h1 {
         border-style:solid

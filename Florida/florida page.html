@@ -5,55 +5,23 @@
   <title>Florida</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <!-- stylizes all body elements and headers in the document -->
-  <style>
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-      font-family: "Roboto";
-    }
-  </style>
-  <style>
-    p,
-    a {
-      font-family: "Times New Roman";
-    }
-  </style>
-  <style>
-    body {
-      background-color: mintcream;
-    }
-  </style>
-  <style>
-    header, footer {
-      margin-left:150px;margin-right:150px;
-    }
-  </style>
+  <!-- All styling is held in css external files -->
+  <link rel="stylesheet" href="../statepage.css">
 </head>
 
 <body>
-  <!-- Header -->
-  <header id="portfolio">
-    <div class="w3-container">
-      <h1><b>Florida</b></h1>
-      <p style="font-size:25px;">Visit Travel Blog Page</p>
-      <a href="../travel blog.html">My Travel Blog</a>
-    </div>
+  <!-- Top of Page Section -->
+  <header class="top_page">
+    <h1>Florida</h1>
+    <p>Visit Travel Blog Page</p>
+    <a href="../travel blog.html">My Travel Blog</a>
   </header>
 
-  <div style="margin-left:455px; margin-right:455px">
     <!-- State Information Section -->
-    <div style="text-align:center;">
-      <h1><b>Florida</b></h1>
-      <img src="florida.jpg" alt="Florida" style="width:300px; height:300px;">
-      <h2 style="text-decoration:underline">Florida Information</h2>
+    <div class="state_info">
+      <h1>Florida</h1>
+      <img src="florida.jpg" alt="Florida">
+      <h2>Florida Information</h2>
       <p>The 27th state of the United States of America. The capital is Tallahassee and the state is known for it's
         natural wonders like the Everglades.</p>
       <p>To learn more about the state of Florida, you can visit the Florida Wikipedia page.</p>
@@ -64,34 +32,30 @@
     <br>
 
     <!-- Cities Section -->
-    <div class="w3-row">
-      <div style="text-align:center;">
+    <div class="city_section">
+      <div>
         <hr>
-        <h1 style="border-style: solid">Cities I've Visited</h1>
+        <h1>Cities I've Visited</h1>
       </div>
-    </div>
 
-    <div class="w3-row">
-      <div style="text-align:center;">
+      <div>
         <hr>
-        <h2 style="text-decoration:underline">Orlando</h2>
+        <h2>Orlando</h2>
         <p>This city has a population of around 308,000 people.</p>
         <a href="../under construction.html">Under Construction</a>
       </div>
     </div>
 
     <!-- Big Destinations Section -->
-    <div class="w3-row">
-      <div style="text-align:center;">
+    <div class="city_section">
+      <div>
         <hr>
-        <h1 style="border-style: solid">Big Destinations</h1>
+        <h1>Big Destinations</h1>
       </div>
-    </div>
 
-    <div class="w3-row">
-      <div style="text-align:center;">
+      <div>
         <hr>
-        <h2 style="text-decoration:underline">Walt Disney World</h2>
+        <h2>Walt Disney World</h2>
         <p>Theme park owned by The Walt Disney Company. It has four theme parks encompassed in it's Walt Disney World
           Resort. The Walt Disney World Resort has a sister location in California.</p>
         <a href="../under construction.html">Under Construction</a>
@@ -100,19 +64,13 @@
 
     <!-- Adds a space between content and the footer -->
     <br>
-  </div>
 
-  <!-- Footer -->
-  <footer class="w3-container w3-padding-32 w3-dark-grey">
-    <div class="w3-row-padding">
-      <div class="w3-third">
-        <h3>ABOUT ME</h3>
-        <p>Learn more about the author of this page.</p>
-        <a href="../index.html">Home</a>
-      </div>
-    </div>
+  <!-- Bottom of Page Section -->
+  <footer class="footer_box">
+    <h3>ABOUT ME</h3>
+    <p>Learn more about the author of this page.</p>
+    <a href="../index.html">Home</a>
   </footer>
-  </div>
 </body>
 
 </html>

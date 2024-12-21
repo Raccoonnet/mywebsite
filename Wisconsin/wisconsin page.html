@@ -5,55 +5,23 @@
   <title>Wisconsin</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <!-- stylizes all body elements and headers in the document -->
-  <style>
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-      font-family: "Roboto";
-    }
-  </style>
-  <style>
-    p,
-    a {
-      font-family: "Times New Roman";
-    }
-  </style>
-  <style>
-    body {
-      background-color: mintcream;
-    }
-  </style>
-  <style>
-    header, footer {
-      margin-left:150px;margin-right:150px;
-    }
-  </style>
+  <!-- All styling is held in css external files -->
+  <link rel="stylesheet" href="../statepage.css">
 </head>
 
 <body>
-  <!-- Header -->
-  <header id="portfolio">
-    <div class="w3-container">
-      <h1><b>Wisconsin</b></h1>
-      <p style="font-size:25px;">Visit Travel Blog Page</p>
-      <a href="../travel blog.html">My Travel Blog</a>
-    </div>
+  <!-- Top of Page Section -->
+  <header class="top_page">
+    <h1>Wisconsin</h1>
+    <p>Visit Travel Blog Page</p>
+    <a href="../travel blog.html">My Travel Blog</a>
   </header>
 
-  <div style="margin-left:455px; margin-right:455px">
     <!-- State Information Section -->
-    <div style="text-align:center;">
-      <h1><b>Wisconsin</b></h1>
-      <img src="wisconsin.jpg" alt="Wisconsin" style="width:300px; height:300px;">
-      <h2 style="text-decoration:underline">State Information</h2>
+    <div class="state_info">
+      <h1>Wisconsin</h1>
+      <img src="wisconsin.jpg" alt="Wisconsin">
+      <h2>State Information</h2>
       <p>The 30th state of the United States of America. The capital is Madison and the state is known for it's
         cheese, bratwurst, and beer.</p>
       <p>To learn more about the state of Wisconsin, you can visit the Wisconsin Wikipedia page.</p>
@@ -64,35 +32,29 @@
     <br>
 
     <!-- Cities Section -->
-    <div class="w3-row">
-      <div style="text-align:center;">
+    <div class="city_section">
+      <div>
         <hr>
-        <h1 style="border-style: solid">Cities I've Visited</h1>
+        <h1>Cities I've Visited</h1>
       </div>
-    </div>
 
-    <div class="w3-row">
-      <div style="text-align:center;">
+      <div>
         <hr>
-        <h2 style="text-decoration:underline">Milwaukee</h2>
+        <h2>Milwaukee</h2>
         <p>This city has a population of around 577,000 people.</p>
         <a href="../under construction.html">Under Construction</a>
       </div>
-    </div>
-
-    <div class="w3-row">
-      <div style="text-align:center;">
+  
+      <div>
         <hr>
-        <h2 style="text-decoration:underline">La Crosse</h2>
+        <h2>La Crosse</h2>
         <p>This city has a population of around 53,000 people.</p>
         <a href="../under construction.html">Under Construction</a>
       </div>
-    </div>
-
-    <div class="w3-row">
-      <div style="text-align:center;">
+    
+      <div>
         <hr>
-        <h2 style="text-decoration:underline">Wisconsin Dells</h2>
+        <h2>Wisconsin Dells</h2>
         <p>This city has a population of around 3000 people.</p>
         <a href="../under construction.html">Under Construction</a>
       </div>
@@ -100,19 +62,13 @@
 
     <!-- Adds a space between content and the footer -->
     <br>
-  </div>
 
-  <!-- Footer -->
-  <footer class="w3-container w3-padding-32 w3-dark-grey">
-    <div class="w3-row-padding">
-      <div class="w3-third">
-        <h3>ABOUT ME</h3>
-        <p>Learn more about the author of this page.</p>
-        <a href="../index.html">Home</a>
-      </div>
-    </div>
+  <!-- Bottom of Page Section -->
+  <footer class="footer_box">
+    <h3>ABOUT ME</h3>
+    <p>Learn more about the author of this page.</p>
+    <a href="../index.html">Home</a>
   </footer>
-  </div>
 </body>
 
 </html>
