@@ -1,0 +1,11 @@
+/* General HTML section styles */ 
+h1 {
+    text-decoration:underline;
+    font-weight:bold;
+}
+body {
+    text-align:center;
+    font-family:'Times New Roman';
+    color:#000!important;
+    background-color:#f1f1f1!important;
+}
