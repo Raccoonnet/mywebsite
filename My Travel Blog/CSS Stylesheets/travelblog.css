@@ -74,3 +74,48 @@ body {
         color:#000!important;
         background-color:#fff!important;
     }
+
+    /* Bottom of page section */
+    footer {
+        /* content:"";
+        display:table;
+        clear:both; */
+        padding:0.01em 16px;
+        padding-top:32px!important;
+        padding-bottom:32px!important;
+        color:#fff!important;
+        background-color:#616161!important;
+        text-align:center;
+        font-family: 'Times New Roman';
+    }
+
+    footer h3 {
+        font-family: 'Roboto';
+    }
+
+    footer ul {
+        list-style-type:none;
+        padding:0;
+        margin:0;
+    }
+    footer li{
+        padding:8px 16px;
+        border-bottom:1px solid #ddd;
+        padding-top:16px!important;
+        padding-bottom:16px!important;
+    }
+    footer li:last-child{
+        border-bottom:none
+    }
+
+    footer li:hover{
+        background-color:#ccc;
+    }
+
+    footer span {
+        font-size:18px!important;
+    }
+
+    .bottom_page {
+        padding:0 8px;
+    }
