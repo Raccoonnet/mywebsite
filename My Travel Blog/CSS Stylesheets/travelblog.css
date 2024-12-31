@@ -25,10 +25,6 @@ header h1 {
     text-align: center;
 }
 
-header p {
-    font-size: 25px;
-}
-
 .navbar ul {
     list-style-type: none;
     background-color: #616161;
