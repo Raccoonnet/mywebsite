@@ -6,7 +6,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Raleway", sans-serif
+    font-family: "Raleway", sans-serif;
 }
 
 body {
@@ -98,22 +98,21 @@ body {
         padding:0;
         margin:0;
     }
-    footer li{
+
+    footer li {
         padding:8px 16px;
         border-bottom:1px solid #ddd;
         padding-top:16px!important;
         padding-bottom:16px!important;
+        font-size:18px!important;
     }
-    footer li:last-child{
+
+    footer a:last-child {
         border-bottom:none
     }
 
-    footer li:hover{
+    footer li:hover {
         background-color:#ccc;
-    }
-
-    footer span {
-        font-size:18px!important;
     }
 
     .bottom_page {

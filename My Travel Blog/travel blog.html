@@ -5,9 +5,6 @@
   <title>My Travel Blog</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- All styling is held in css external files -->
   <link rel="stylesheet" href="CSS Stylesheets/travelblog.css">
 </head>
@@ -15,7 +12,12 @@
 <body>
   <!-- Top of Page Section -->
   <header class="top_page">
-    <h1>My Travel Blog</h1>
+    <nav>
+      <div><h1>My Travel Blog</h1></div>
+      <div><a href="#news">News</a></div>
+      <div><a href="#contact">Contact</a></div>
+      <div><a href="#about">About</a></div>
+    </nav>
   </header>
 
   <!-- Content Section -->
@@ -171,12 +173,12 @@
       <div class="box">
         <h3>RECENT BLOG POSTS</h3>
         <ul>
-          <li>
-            <a href="Illinois/springfield, il.html"><span>Springfield, Illinois</span><br></a>
-          </li>
-          <li>
-            <a href="Ohio/ohio page.html"><span>Ohio</span><br></a>
-          </li>
+          <a href="Illinois/springfield, il.html">
+            <li>Springfield, Illinois</li>
+          </a>
+          <a href="Ohio/ohio page.html">
+            <li>Ohio</li>
+          </a>
         </ul>
       </div>
 
@@ -185,12 +187,12 @@
       <div class="box">
         <h3>CHECK OUT MY OTHER BLOGS</h3>
         <ul>
-          <li>
-            <a href="Missouri/missouri page.html"><span>Missouri</span><br></a>
-          </li>
-          <li>
-            <a href="Florida/florida page.html"><span>Florida</span><br></a>
-          </li>
+          <a href="../My Program Page/program page.html">
+            <li>My Program Page</li>
+          </a>
+          <a href="../My Coffee Blog/coffee_home.html">
+            <li>My Coffee Blog</li>
+          </a>
         </ul>
       </div>
     </div>
