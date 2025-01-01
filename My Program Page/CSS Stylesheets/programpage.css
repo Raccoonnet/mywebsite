@@ -1,29 +1,58 @@
-/* General HTML section styles */
-body {
-    color: #000 !important;
-    background-color: #f1f1f1 !important;
-}
-
 h2 {
     text-decoration: underline;
 }
 
-/* Document specific section styles */
+body {
+    color: #000 !important;
+    background-color: #f1f1f1 !important;
+    margin: 0px;
+}
+
 /* Top of page section */
-.top_page {
+header {
+    margin-bottom: 8px;
+}
+
+header h1 {
+    padding: 0.01em 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style-type: none;
+    background-color: #616161;
+    padding: 0px!important;
+    margin: 0px!important;
+    text-align: center;
+    overflow: hidden;
+}
+
+.navbar ul li {
+    display: inline-block;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px; 
+    display: block;
+}
+
+.navbar a:hover {
+    background-color: black;
+}
+
+/* .top_page {
     padding: 0.01em 16px !important;
     display: flex;
     flex-direction: column;
 }
 
-.top_page p {
-    font-size: 25px;
-}
-
 .top_page h1 {
     font-weight: bold;
     font-family: "Fabrikat Kompakt Bold";
-}
+} */
 
 /* Page information */
 .page_info {
