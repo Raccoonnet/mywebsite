@@ -1,0 +1,12 @@
+/* Center-Of-Page Images */
+img {
+  display: block;
+  max-inline-size: 100%;
+  max-width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid black;
+}
+
+/*# sourceMappingURL=center-of-page_images.css.map */

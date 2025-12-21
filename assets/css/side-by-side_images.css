@@ -1,0 +1,31 @@
+/* Side-By-Side Images */
+img {
+  display: block;
+  max-inline-size: 100%;
+  border: 5px solid black;
+}
+
+/* Default styles (large screens) */
+.responsive-img {
+  float: right;
+  width: 20%;
+  height: auto;
+  margin-left: 15px; /* Add some space between the image and text */
+}
+
+/* Styles for small screens */
+@media (max-width: 600px) {
+  .responsive-img {
+    float: none; /* Remove the float */
+    display: block; /* Change to block element for margin auto to work */
+    margin: 0 auto; /* Center the image horizontally with auto margins */
+    width: 75%; /* Optionally adjust width for the smaller screen */
+    height: auto;
+  }
+  /* Ensure the parent container has text-align: center if you use inline-block centering */
+  .img-container {
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=side-by-side_images.css.map */

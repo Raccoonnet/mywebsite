@@ -1,0 +1,109 @@
+/* Main Section */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Georgia", serif;
+  line-height: 1.7;
+  color: #333;
+  background-color: #fafafa;
+  padding: 1rem;
+  padding-bottom: 4rem;
+}
+
+h1, h2, h3 {
+  font-family: "Helvetica Neue", sans-serif;
+  color: #222;
+}
+
+a {
+  color: #1e90ff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Navigation Bar */
+nav {
+  font-size: larger;
+  background: #333;
+  padding: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.current {
+  color: green;
+}
+
+nav a {
+  color: white;
+  font-weight: bold;
+}
+
+nav a.current {
+  color: green;
+  border-bottom: 2px solid white;
+}
+
+/* Images */
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid black;
+  border-radius: 8px; /* optional: rounded corners for style */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* subtle shadow */
+}
+
+.hero-image {
+  max-width: 1000px; /* stops it from being too wide on large screens */
+  width: 100%; /* scales down on smaller screens */
+  max-height: 600px; /* prevents huge vertical images */
+  height: auto; /* keeps proportions */
+}
+
+.content-image {
+  max-width: 600px; /* smaller than hero images */
+  width: 100%; /* scales down on mobile */
+  max-height: 600px; /* prevents huge vertical images */
+  height: auto; /* keeps proportions */
+}
+
+/* Blog post layout */
+article.post {
+  background: white;
+  padding: 2rem;
+  margin: 2rem auto;
+  max-width: 700px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+}
+
+/* Footer Section */
+footer {
+  background-color: #f2f2f2;
+  color: #333;
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+footer a {
+  color: #333;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=main.css.map */
