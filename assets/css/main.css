@@ -30,7 +30,12 @@ a:hover {
   text-decoration: underline;
 }
 
-.centered {
+.centered h1,
+.centered h2,
+.centered h3,
+.centered h4,
+.centered h5,
+.centered h6 {
   text-align: center;
 }
 
