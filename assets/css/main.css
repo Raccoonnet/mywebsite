@@ -30,12 +30,24 @@ a:hover {
   text-decoration: underline;
 }
 
+.huge-link {
+  font-size: 50px; /* Adjust size as needed */
+  font-weight: bold; /* Optional */
+  text-decoration: none; /* Optional */
+  padding: 10px 20px;
+  display: inline-block;
+}
+
 .centered h1,
 .centered h2,
 .centered h3,
 .centered h4,
 .centered h5,
 .centered h6 {
+  text-align: center;
+}
+
+.centered-header {
   text-align: center;
 }
 
@@ -94,6 +106,17 @@ img {
   width: 100%; /* scales down on mobile */
   max-height: 600px; /* prevents huge vertical images */
   height: auto; /* keeps proportions */
+}
+
+.map-container {
+  text-align: center;
+  min-width: 0;
+}
+
+.map-container svg {
+  width: 100%; /* scale with container */
+  max-width: 1000px;
+  height: auto;
 }
 
 /* Blog post layout */
