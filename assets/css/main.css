@@ -38,6 +38,10 @@ a:hover {
   display: inline-block;
 }
 
+.centered-div {
+  text-align: center;
+}
+
 .centered h1,
 .centered h2,
 .centered h3,
@@ -49,6 +53,31 @@ a:hover {
 
 .centered-header {
   text-align: center;
+}
+
+.city-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  text-align: center;
+}
+
+.city-card {
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+}
+
+.city-card img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  display: block;
+}
+
+.city-card span {
+  display: block;
+  margin-top: 8px;
 }
 
 /* Navigation Bar */
